@@ -1,0 +1,1796 @@
+147824 execve("./umpire2", ["./umpire2", "tests/test8/players.txt"], 0x7ffe148ac400 /* 55 vars */) = 0
+147824 brk(NULL)                        = 0x55fc42b77000
+147824 arch_prctl(0x3001 /* ARCH_??? */, 0x7ffe2ce2ae90) = -1 EINVAL (Invalid argument)
+147824 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+147824 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+147824 fstat(3, {st_mode=S_IFREG|0644, st_size=90042, ...}) = 0
+147824 mmap(NULL, 90042, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f0bd50c4000
+147824 close(3)                         = 0
+147824 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+147824 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+147824 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147824 pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147824 pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147824 fstat(3, {st_mode=S_IFREG|0755, st_size=2029224, ...}) = 0
+147824 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0bd50c2000
+147824 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147824 pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147824 pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147824 mmap(NULL, 2036952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0bd4ed0000
+147824 mprotect(0x7f0bd4ef5000, 1847296, PROT_NONE) = 0
+147824 mmap(0x7f0bd4ef5000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7f0bd4ef5000
+147824 mmap(0x7f0bd506d000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19d000) = 0x7f0bd506d000
+147824 mmap(0x7f0bd50b8000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f0bd50b8000
+147824 mmap(0x7f0bd50be000, 13528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0bd50be000
+147824 close(3)                         = 0
+147824 arch_prctl(ARCH_SET_FS, 0x7f0bd50c3540) = 0
+147824 mprotect(0x7f0bd50b8000, 12288, PROT_READ) = 0
+147824 mprotect(0x55fc4159e000, 4096, PROT_READ) = 0
+147824 mprotect(0x7f0bd5107000, 4096, PROT_READ) = 0
+147824 munmap(0x7f0bd50c4000, 90042)    = 0
+147824 openat(AT_FDCWD, "tests/test8/players.txt", O_RDONLY) = 3
+147824 read(3, "7", 1)                  = 1
+147824 read(3, "\n", 1)                 = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "8", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "p", 1)                  = 1
+147824 read(3, "l", 1)                  = 1
+147824 read(3, "a", 1)                  = 1
+147824 read(3, "y", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "r", 1)                  = 1
+147824 read(3, "1", 1)                  = 1
+147824 read(3, "\n", 1)                 = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "8", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "p", 1)                  = 1
+147824 read(3, "l", 1)                  = 1
+147824 read(3, "a", 1)                  = 1
+147824 read(3, "y", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "r", 1)                  = 1
+147824 read(3, "2", 1)                  = 1
+147824 read(3, "\n", 1)                 = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "8", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "p", 1)                  = 1
+147824 read(3, "l", 1)                  = 1
+147824 read(3, "a", 1)                  = 1
+147824 read(3, "y", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "r", 1)                  = 1
+147824 read(3, "1", 1)                  = 1
+147824 read(3, "\n", 1)                 = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "8", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "p", 1)                  = 1
+147824 read(3, "l", 1)                  = 1
+147824 read(3, "a", 1)                  = 1
+147824 read(3, "y", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "r", 1)                  = 1
+147824 read(3, "1", 1)                  = 1
+147824 read(3, "\n", 1)                 = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "8", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "p", 1)                  = 1
+147824 read(3, "l", 1)                  = 1
+147824 read(3, "a", 1)                  = 1
+147824 read(3, "y", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "r", 1)                  = 1
+147824 read(3, "2", 1)                  = 1
+147824 read(3, "\n", 1)                 = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "8", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "p", 1)                  = 1
+147824 read(3, "l", 1)                  = 1
+147824 read(3, "a", 1)                  = 1
+147824 read(3, "y", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "r", 1)                  = 1
+147824 read(3, "1", 1)                  = 1
+147824 read(3, "\n", 1)                 = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "s", 1)                  = 1
+147824 read(3, "t", 1)                  = 1
+147824 read(3, "8", 1)                  = 1
+147824 read(3, "/", 1)                  = 1
+147824 read(3, "p", 1)                  = 1
+147824 read(3, "l", 1)                  = 1
+147824 read(3, "a", 1)                  = 1
+147824 read(3, "y", 1)                  = 1
+147824 read(3, "e", 1)                  = 1
+147824 read(3, "r", 1)                  = 1
+147824 read(3, "1", 1)                  = 1
+147824 read(3, "\n", 1)                 = 1
+147824 close(3)                         = 0
+147824 pipe([3, 4])                     = 0
+147824 pipe([5, 6])                     = 0
+147824 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f0bd50c3810) = 147825
+147824 close(3)                         = 0
+147825 dup2(3, 0 <unfinished ...>
+147824 close(6 <unfinished ...>
+147825 <... dup2 resumed>)              = 0
+147824 <... close resumed>)             = 0
+147825 close(4 <unfinished ...>
+147824 pipe( <unfinished ...>
+147825 <... close resumed>)             = 0
+147824 <... pipe resumed>[3, 6])        = 0
+147825 dup2(6, 1 <unfinished ...>
+147824 pipe( <unfinished ...>
+147825 <... dup2 resumed>)              = 1
+147824 <... pipe resumed>[7, 8])        = 0
+147825 close(5 <unfinished ...>
+147824 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+147825 <... close resumed>)             = 0
+147825 execve("tests/test8/player1", ["player1"], 0x7ffe2ce2af80 /* 55 vars */ <unfinished ...>
+147824 <... clone resumed>, child_tidptr=0x7f0bd50c3810) = 147826
+147824 close(3)                         = 0
+147824 close(8)                         = 0
+147826 dup2(3, 0 <unfinished ...>
+147824 pipe([3, 8])                     = 0
+147826 <... dup2 resumed>)              = 0
+147824 pipe( <unfinished ...>
+147826 close(6 <unfinished ...>
+147824 <... pipe resumed>[9, 10])       = 0
+147826 <... close resumed>)             = 0
+147825 <... execve resumed>)            = 0
+147824 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+147826 dup2(8, 1 <unfinished ...>
+147825 brk(NULL <unfinished ...>
+147826 <... dup2 resumed>)              = 1
+147825 <... brk resumed>)               = 0x55aa55ff6000
+147826 close(7 <unfinished ...>
+147825 arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd897987b0 <unfinished ...>
+147826 <... close resumed>)             = 0
+147825 <... arch_prctl resumed>)        = -1 EINVAL (Invalid argument)
+147826 execve("tests/test8/player2", ["player2"], 0x7ffe2ce2af80 /* 55 vars */ <unfinished ...>
+147824 <... clone resumed>, child_tidptr=0x7f0bd50c3810) = 147827
+147825 access("/etc/ld.so.preload", R_OK <unfinished ...>
+147824 close(3 <unfinished ...>
+147827 dup2(3, 0 <unfinished ...>
+147824 <... close resumed>)             = 0
+147825 <... access resumed>)            = -1 ENOENT (No such file or directory)
+147824 close(10 <unfinished ...>
+147827 <... dup2 resumed>)              = 0
+147824 <... close resumed>)             = 0
+147825 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+147824 pipe( <unfinished ...>
+147827 close(8 <unfinished ...>
+147825 <... openat resumed>)            = 4
+147824 <... pipe resumed>[3, 10])       = 0
+147827 <... close resumed>)             = 0
+147824 pipe( <unfinished ...>
+147825 fstat(4,  <unfinished ...>
+147824 <... pipe resumed>[11, 12])      = 0
+147827 dup2(10, 1 <unfinished ...>
+147825 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=90042, ...}) = 0
+147824 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+147827 <... dup2 resumed>)              = 1
+147825 mmap(NULL, 90042, PROT_READ, MAP_PRIVATE, 4, 0 <unfinished ...>
+147827 close(9 <unfinished ...>
+147826 <... execve resumed>)            = 0
+147827 <... close resumed>)             = 0
+147825 <... mmap resumed>)              = 0x7fb4d664d000
+147827 execve("tests/test8/player1", ["player1"], 0x7ffe2ce2af80 /* 55 vars */ <unfinished ...>
+147825 close(4 <unfinished ...>
+147824 <... clone resumed>, child_tidptr=0x7f0bd50c3810) = 147828
+147826 brk(NULL <unfinished ...>
+147825 <... close resumed>)             = 0
+147824 close(3 <unfinished ...>
+147826 <... brk resumed>)               = 0x55996caa2000
+147824 <... close resumed>)             = 0
+147828 dup2(3, 0 <unfinished ...>
+147825 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+147824 close(12 <unfinished ...>
+147828 <... dup2 resumed>)              = 0
+147826 arch_prctl(0x3001 /* ARCH_??? */, 0x7ffce36d9e70 <unfinished ...>
+147824 <... close resumed>)             = 0
+147828 close(10 <unfinished ...>
+147826 <... arch_prctl resumed>)        = -1 EINVAL (Invalid argument)
+147825 <... openat resumed>)            = 4
+147824 pipe( <unfinished ...>
+147828 <... close resumed>)             = 0
+147827 <... execve resumed>)            = 0
+147825 read(4,  <unfinished ...>
+147824 <... pipe resumed>[3, 12])       = 0
+147828 dup2(12, 1 <unfinished ...>
+147826 access("/etc/ld.so.preload", R_OK <unfinished ...>
+147825 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+147824 pipe( <unfinished ...>
+147828 <... dup2 resumed>)              = 1
+147827 brk(NULL <unfinished ...>
+147826 <... access resumed>)            = -1 ENOENT (No such file or directory)
+147825 pread64(4,  <unfinished ...>
+147824 <... pipe resumed>[13, 14])      = 0
+147828 close(11 <unfinished ...>
+147827 <... brk resumed>)               = 0x564db0563000
+147826 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+147824 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+147828 <... close resumed>)             = 0
+147827 arch_prctl(0x3001 /* ARCH_??? */, 0x7ffe388004c0 <unfinished ...>
+147825 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147828 execve("tests/test8/player1", ["player1"], 0x7ffe2ce2af80 /* 55 vars */ <unfinished ...>
+147827 <... arch_prctl resumed>)        = -1 EINVAL (Invalid argument)
+147826 <... openat resumed>)            = 6
+147825 pread64(4,  <unfinished ...>
+147824 <... clone resumed>, child_tidptr=0x7f0bd50c3810) = 147829
+147826 fstat(6,  <unfinished ...>
+147827 access("/etc/ld.so.preload", R_OK <unfinished ...>
+147824 close(3 <unfinished ...>
+147825 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147826 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=90042, ...}) = 0
+147824 <... close resumed>)             = 0
+147829 dup2(3, 0 <unfinished ...>
+147827 <... access resumed>)            = -1 ENOENT (No such file or directory)
+147825 pread64(4,  <unfinished ...>
+147824 close(14 <unfinished ...>
+147829 <... dup2 resumed>)              = 0
+147826 mmap(NULL, 90042, PROT_READ, MAP_PRIVATE, 6, 0 <unfinished ...>
+147825 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147824 <... close resumed>)             = 0
+147829 close(12 <unfinished ...>
+147827 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+147826 <... mmap resumed>)              = 0x7f4c27f37000
+147825 fstat(4,  <unfinished ...>
+147824 pipe( <unfinished ...>
+147829 <... close resumed>)             = 0
+147828 <... execve resumed>)            = 0
+147827 <... openat resumed>)            = 8
+147826 close(6 <unfinished ...>
+147825 <... fstat resumed>{st_mode=S_IFREG|0755, st_size=2029224, ...}) = 0
+147824 <... pipe resumed>[3, 14])       = 0
+147829 dup2(14, 1 <unfinished ...>
+147827 fstat(8,  <unfinished ...>
+147826 <... close resumed>)             = 0
+147825 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147828 brk(NULL <unfinished ...>
+147824 pipe( <unfinished ...>
+147829 <... dup2 resumed>)              = 1
+147827 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=90042, ...}) = 0
+147826 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+147828 <... brk resumed>)               = 0x564dc68b9000
+147825 <... mmap resumed>)              = 0x7fb4d664b000
+147824 <... pipe resumed>[15, 16])      = 0
+147829 close(13 <unfinished ...>
+147828 arch_prctl(0x3001 /* ARCH_??? */, 0x7ffe377bb500 <unfinished ...>
+147827 mmap(NULL, 90042, PROT_READ, MAP_PRIVATE, 8, 0 <unfinished ...>
+147826 <... openat resumed>)            = 6
+147824 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+147829 <... close resumed>)             = 0
+147828 <... arch_prctl resumed>)        = -1 EINVAL (Invalid argument)
+147827 <... mmap resumed>)              = 0x7f0382e42000
+147826 read(6,  <unfinished ...>
+147825 pread64(4,  <unfinished ...>
+147829 execve("tests/test8/player2", ["player2"], 0x7ffe2ce2af80 /* 55 vars */ <unfinished ...>
+147828 access("/etc/ld.so.preload", R_OK <unfinished ...>
+147827 close(8 <unfinished ...>
+147826 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+147825 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147824 <... clone resumed>, child_tidptr=0x7f0bd50c3810) = 147830
+147830 dup2(3, 0 <unfinished ...>
+147828 <... access resumed>)            = -1 ENOENT (No such file or directory)
+147827 <... close resumed>)             = 0
+147826 pread64(6,  <unfinished ...>
+147825 pread64(4,  <unfinished ...>
+147824 close(3 <unfinished ...>
+147830 <... dup2 resumed>)              = 0
+147828 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+147826 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147825 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147824 <... close resumed>)             = 0
+147830 close(14 <unfinished ...>
+147828 <... openat resumed>)            = 10
+147827 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+147826 pread64(6,  <unfinished ...>
+147825 pread64(4,  <unfinished ...>
+147824 close(16 <unfinished ...>
+147830 <... close resumed>)             = 0
+147829 <... execve resumed>)            = 0
+147828 fstat(10,  <unfinished ...>
+147827 <... openat resumed>)            = 8
+147826 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147825 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147824 <... close resumed>)             = 0
+147830 dup2(16, 1 <unfinished ...>
+147829 brk(NULL <unfinished ...>
+147828 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=90042, ...}) = 0
+147827 read(8,  <unfinished ...>
+147826 pread64(6,  <unfinished ...>
+147825 mmap(NULL, 2036952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0 <unfinished ...>
+147824 pipe( <unfinished ...>
+147830 <... dup2 resumed>)              = 1
+147829 <... brk resumed>)               = 0x56402d402000
+147828 mmap(NULL, 90042, PROT_READ, MAP_PRIVATE, 10, 0 <unfinished ...>
+147827 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+147826 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147825 <... mmap resumed>)              = 0x7fb4d6459000
+147824 <... pipe resumed>[3, 16])       = 0
+147830 close(15 <unfinished ...>
+147829 arch_prctl(0x3001 /* ARCH_??? */, 0x7fffe034c230 <unfinished ...>
+147828 <... mmap resumed>)              = 0x7f57b7f1a000
+147827 pread64(8,  <unfinished ...>
+147826 fstat(6,  <unfinished ...>
+147825 mprotect(0x7fb4d647e000, 1847296, PROT_NONE <unfinished ...>
+147824 pipe( <unfinished ...>
+147830 <... close resumed>)             = 0
+147829 <... arch_prctl resumed>)        = -1 EINVAL (Invalid argument)
+147828 close(10 <unfinished ...>
+147827 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147826 <... fstat resumed>{st_mode=S_IFREG|0755, st_size=2029224, ...}) = 0
+147825 <... mprotect resumed>)          = 0
+147824 <... pipe resumed>[17, 18])      = 0
+147830 execve("tests/test8/player1", ["player1"], 0x7ffe2ce2af80 /* 55 vars */ <unfinished ...>
+147829 access("/etc/ld.so.preload", R_OK <unfinished ...>
+147828 <... close resumed>)             = 0
+147827 pread64(8,  <unfinished ...>
+147826 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147825 mmap(0x7fb4d647e000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x25000 <unfinished ...>
+147824 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+147829 <... access resumed>)            = -1 ENOENT (No such file or directory)
+147828 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+147827 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147826 <... mmap resumed>)              = 0x7f4c27f35000
+147829 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+147828 <... openat resumed>)            = 10
+147825 <... mmap resumed>)              = 0x7fb4d647e000
+147829 <... openat resumed>)            = 12
+147828 read(10,  <unfinished ...>
+147827 pread64(8,  <unfinished ...>
+147826 pread64(6,  <unfinished ...>
+147825 mmap(0x7fb4d65f6000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x19d000 <unfinished ...>
+147824 <... clone resumed>, child_tidptr=0x7f0bd50c3810) = 147831
+147829 fstat(12,  <unfinished ...>
+147828 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+147827 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147826 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147825 <... mmap resumed>)              = 0x7fb4d65f6000
+147824 close(3 <unfinished ...>
+147830 <... execve resumed>)            = 0
+147829 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=90042, ...}) = 0
+147828 pread64(10,  <unfinished ...>
+147827 fstat(8,  <unfinished ...>
+147826 pread64(6,  <unfinished ...>
+147825 mmap(0x7fb4d6641000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1e7000 <unfinished ...>
+147824 <... close resumed>)             = 0
+147830 brk(NULL <unfinished ...>
+147829 mmap(NULL, 90042, PROT_READ, MAP_PRIVATE, 12, 0 <unfinished ...>
+147828 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147827 <... fstat resumed>{st_mode=S_IFREG|0755, st_size=2029224, ...}) = 0
+147826 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147825 <... mmap resumed>)              = 0x7fb4d6641000
+147824 close(18 <unfinished ...>
+147830 <... brk resumed>)               = 0x555663da9000
+147829 <... mmap resumed>)              = 0x7fa060077000
+147828 pread64(10,  <unfinished ...>
+147827 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147826 pread64(6,  <unfinished ...>
+147824 <... close resumed>)             = 0
+147830 arch_prctl(0x3001 /* ARCH_??? */, 0x7ffc04c4f3b0 <unfinished ...>
+147831 dup2(3, 0 <unfinished ...>
+147829 close(12 <unfinished ...>
+147828 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147825 mmap(0x7fb4d6647000, 13528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147824 fstat(1,  <unfinished ...>
+147831 <... dup2 resumed>)              = 0
+147830 <... arch_prctl resumed>)        = -1 EINVAL (Invalid argument)
+147829 <... close resumed>)             = 0
+147828 pread64(10,  <unfinished ...>
+147827 <... mmap resumed>)              = 0x7f0382e40000
+147826 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147825 <... mmap resumed>)              = 0x7fb4d6647000
+147824 <... fstat resumed>{st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+147831 close(16 <unfinished ...>
+147830 access("/etc/ld.so.preload", R_OK <unfinished ...>
+147829 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+147828 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147827 pread64(8,  <unfinished ...>
+147826 mmap(NULL, 2036952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 6, 0 <unfinished ...>
+147824 brk(NULL <unfinished ...>
+147831 <... close resumed>)             = 0
+147830 <... access resumed>)            = -1 ENOENT (No such file or directory)
+147828 fstat(10,  <unfinished ...>
+147829 <... openat resumed>)            = 12
+147825 close(4 <unfinished ...>
+147824 <... brk resumed>)               = 0x55fc42b77000
+147830 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+147831 dup2(18, 1 <unfinished ...>
+147829 read(12,  <unfinished ...>
+147828 <... fstat resumed>{st_mode=S_IFREG|0755, st_size=2029224, ...}) = 0
+147827 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147826 <... mmap resumed>)              = 0x7f4c27d43000
+147825 <... close resumed>)             = 0
+147824 brk(0x55fc42b98000 <unfinished ...>
+147831 <... dup2 resumed>)              = 1
+147830 <... openat resumed>)            = 14
+147829 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+147828 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147827 pread64(8,  <unfinished ...>
+147826 mprotect(0x7f4c27d68000, 1847296, PROT_NONE <unfinished ...>
+147824 <... brk resumed>)               = 0x55fc42b98000
+147831 close(17 <unfinished ...>
+147830 fstat(14,  <unfinished ...>
+147829 pread64(12,  <unfinished ...>
+147828 <... mmap resumed>)              = 0x7f57b7f18000
+147827 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147825 arch_prctl(ARCH_SET_FS, 0x7fb4d664c540 <unfinished ...>
+147824 write(6, "GO\0", 3 <unfinished ...>
+147831 <... close resumed>)             = 0
+147830 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=90042, ...}) = 0
+147829 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147828 pread64(10,  <unfinished ...>
+147827 pread64(8,  <unfinished ...>
+147826 <... mprotect resumed>)          = 0
+147825 <... arch_prctl resumed>)        = 0
+147824 <... write resumed>)             = 3
+147831 execve("tests/test8/player1", ["player1"], 0x7ffe2ce2af80 /* 55 vars */ <unfinished ...>
+147830 mmap(NULL, 90042, PROT_READ, MAP_PRIVATE, 14, 0 <unfinished ...>
+147829 pread64(12,  <unfinished ...>
+147828 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147827 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147826 mmap(0x7f4c27d68000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x25000 <unfinished ...>
+147824 read(7,  <unfinished ...>
+147830 <... mmap resumed>)              = 0x7fd31ad42000
+147829 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147828 pread64(10,  <unfinished ...>
+147825 mprotect(0x7fb4d6641000, 12288, PROT_READ <unfinished ...>
+147830 close(14 <unfinished ...>
+147828 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147827 mmap(NULL, 2036952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 8, 0 <unfinished ...>
+147829 pread64(12,  <unfinished ...>
+147826 <... mmap resumed>)              = 0x7f4c27d68000
+147830 <... close resumed>)             = 0
+147828 pread64(10,  <unfinished ...>
+147825 <... mprotect resumed>)          = 0
+147830 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+147829 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147828 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147827 <... mmap resumed>)              = 0x7f0382c4e000
+147826 mmap(0x7f4c27ee0000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x19d000 <unfinished ...>
+147830 <... openat resumed>)            = 14
+147829 fstat(12,  <unfinished ...>
+147828 mmap(NULL, 2036952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 10, 0 <unfinished ...>
+147825 mprotect(0x55aa55a5e000, 4096, PROT_READ <unfinished ...>
+147830 read(14,  <unfinished ...>
+147828 <... mmap resumed>)              = 0x7f57b7d26000
+147829 <... fstat resumed>{st_mode=S_IFREG|0755, st_size=2029224, ...}) = 0
+147827 mprotect(0x7f0382c73000, 1847296, PROT_NONE <unfinished ...>
+147826 <... mmap resumed>)              = 0x7f4c27ee0000
+147830 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+147828 mprotect(0x7f57b7d4b000, 1847296, PROT_NONE <unfinished ...>
+147827 <... mprotect resumed>)          = 0
+147829 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147826 mmap(0x7f4c27f2b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x1e7000 <unfinished ...>
+147825 <... mprotect resumed>)          = 0
+147830 pread64(14,  <unfinished ...>
+147828 <... mprotect resumed>)          = 0
+147827 mmap(0x7f0382c73000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8, 0x25000 <unfinished ...>
+147826 <... mmap resumed>)              = 0x7f4c27f2b000
+147829 <... mmap resumed>)              = 0x7fa060075000
+147830 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147828 mmap(0x7f57b7d4b000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10, 0x25000 <unfinished ...>
+147827 <... mmap resumed>)              = 0x7f0382c73000
+147825 mprotect(0x7fb4d6690000, 4096, PROT_READ <unfinished ...>
+147826 mmap(0x7f4c27f31000, 13528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147830 pread64(14,  <unfinished ...>
+147829 pread64(12,  <unfinished ...>
+147828 <... mmap resumed>)              = 0x7f57b7d4b000
+147827 mmap(0x7f0382deb000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8, 0x19d000 <unfinished ...>
+147825 <... mprotect resumed>)          = 0
+147826 <... mmap resumed>)              = 0x7f4c27f31000
+147830 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147829 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147828 mmap(0x7f57b7ec3000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10, 0x19d000 <unfinished ...>
+147827 <... mmap resumed>)              = 0x7f0382deb000
+147825 munmap(0x7fb4d664d000, 90042 <unfinished ...>
+147830 pread64(14,  <unfinished ...>
+147829 pread64(12,  <unfinished ...>
+147828 <... mmap resumed>)              = 0x7f57b7ec3000
+147827 mmap(0x7f0382e36000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8, 0x1e7000 <unfinished ...>
+147826 close(6 <unfinished ...>
+147830 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147829 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147828 mmap(0x7f57b7f0e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10, 0x1e7000 <unfinished ...>
+147827 <... mmap resumed>)              = 0x7f0382e36000
+147826 <... close resumed>)             = 0
+147825 <... munmap resumed>)            = 0
+147830 fstat(14,  <unfinished ...>
+147829 pread64(12,  <unfinished ...>
+147828 <... mmap resumed>)              = 0x7f57b7f0e000
+147827 mmap(0x7f0382e3c000, 13528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147830 <... fstat resumed>{st_mode=S_IFREG|0755, st_size=2029224, ...}) = 0
+147829 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147828 mmap(0x7f57b7f14000, 13528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147826 arch_prctl(ARCH_SET_FS, 0x7f4c27f36540 <unfinished ...>
+147827 <... mmap resumed>)              = 0x7f0382e3c000
+147830 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147829 mmap(NULL, 2036952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 12, 0 <unfinished ...>
+147828 <... mmap resumed>)              = 0x7f57b7f14000
+147826 <... arch_prctl resumed>)        = 0
+147825 getpid( <unfinished ...>
+147830 <... mmap resumed>)              = 0x7fd31ad40000
+147828 close(10 <unfinished ...>
+147827 close(8 <unfinished ...>
+147825 <... getpid resumed>)            = 147825
+147829 <... mmap resumed>)              = 0x7fa05fe83000
+147830 pread64(14,  <unfinished ...>
+147828 <... close resumed>)             = 0
+147827 <... close resumed>)             = 0
+147830 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147829 mprotect(0x7fa05fea8000, 1847296, PROT_NONE <unfinished ...>
+147826 mprotect(0x7f4c27f2b000, 12288, PROT_READ <unfinished ...>
+147825 read(0,  <unfinished ...>
+147830 pread64(14,  <unfinished ...>
+147829 <... mprotect resumed>)          = 0
+147828 arch_prctl(ARCH_SET_FS, 0x7f57b7f19540 <unfinished ...>
+147827 arch_prctl(ARCH_SET_FS, 0x7f0382e41540 <unfinished ...>
+147826 <... mprotect resumed>)          = 0
+147830 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147829 mmap(0x7fa05fea8000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 12, 0x25000 <unfinished ...>
+147828 <... arch_prctl resumed>)        = 0
+147827 <... arch_prctl resumed>)        = 0
+147830 pread64(14,  <unfinished ...>
+147829 <... mmap resumed>)              = 0x7fa05fea8000
+147826 mprotect(0x55996c0b4000, 4096, PROT_READ <unfinished ...>
+147830 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147829 mmap(0x7fa060020000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 12, 0x19d000 <unfinished ...>
+147830 mmap(NULL, 2036952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 14, 0 <unfinished ...>
+147827 mprotect(0x7f0382e36000, 12288, PROT_READ <unfinished ...>
+147828 mprotect(0x7f57b7f0e000, 12288, PROT_READ <unfinished ...>
+147826 <... mprotect resumed>)          = 0
+147829 <... mmap resumed>)              = 0x7fa060020000
+147830 <... mmap resumed>)              = 0x7fd31ab4e000
+147828 <... mprotect resumed>)          = 0
+147827 <... mprotect resumed>)          = 0
+147826 mprotect(0x7f4c27f7a000, 4096, PROT_READ <unfinished ...>
+147830 mprotect(0x7fd31ab73000, 1847296, PROT_NONE <unfinished ...>
+147829 mmap(0x7fa06006b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 12, 0x1e7000 <unfinished ...>
+147830 <... mprotect resumed>)          = 0
+147828 mprotect(0x564dc4bb6000, 4096, PROT_READ <unfinished ...>
+147827 mprotect(0x564daee8d000, 4096, PROT_READ <unfinished ...>
+147826 <... mprotect resumed>)          = 0
+147830 mmap(0x7fd31ab73000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 14, 0x25000 <unfinished ...>
+147829 <... mmap resumed>)              = 0x7fa06006b000
+147828 <... mprotect resumed>)          = 0
+147827 <... mprotect resumed>)          = 0
+147826 munmap(0x7f4c27f37000, 90042 <unfinished ...>
+147831 <... execve resumed>)            = 0
+147830 <... mmap resumed>)              = 0x7fd31ab73000
+147828 mprotect(0x7f57b7f5d000, 4096, PROT_READ <unfinished ...>
+147827 mprotect(0x7f0382e85000, 4096, PROT_READ <unfinished ...>
+147830 mmap(0x7fd31aceb000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 14, 0x19d000 <unfinished ...>
+147829 mmap(0x7fa060071000, 13528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147828 <... mprotect resumed>)          = 0
+147826 <... munmap resumed>)            = 0
+147831 brk(NULL <unfinished ...>
+147830 <... mmap resumed>)              = 0x7fd31aceb000
+147829 <... mmap resumed>)              = 0x7fa060071000
+147828 munmap(0x7f57b7f1a000, 90042 <unfinished ...>
+147827 <... mprotect resumed>)          = 0
+147831 <... brk resumed>)               = 0x5567a064d000
+147830 mmap(0x7fd31ad36000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 14, 0x1e7000 <unfinished ...>
+147828 <... munmap resumed>)            = 0
+147827 munmap(0x7f0382e42000, 90042 <unfinished ...>
+147826 getpid( <unfinished ...>
+147831 arch_prctl(0x3001 /* ARCH_??? */, 0x7ffeebb73380 <unfinished ...>
+147830 <... mmap resumed>)              = 0x7fd31ad36000
+147829 close(12 <unfinished ...>
+147826 <... getpid resumed>)            = 147826
+147831 <... arch_prctl resumed>)        = -1 EINVAL (Invalid argument)
+147830 mmap(0x7fd31ad3c000, 13528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147829 <... close resumed>)             = 0
+147828 getpid( <unfinished ...>
+147827 <... munmap resumed>)            = 0
+147831 access("/etc/ld.so.preload", R_OK <unfinished ...>
+147830 <... mmap resumed>)              = 0x7fd31ad3c000
+147828 <... getpid resumed>)            = 147828
+147826 read(0,  <unfinished ...>
+147831 <... access resumed>)            = -1 ENOENT (No such file or directory)
+147830 close(14 <unfinished ...>
+147829 arch_prctl(ARCH_SET_FS, 0x7fa060076540 <unfinished ...>
+147827 getpid( <unfinished ...>
+147826 <... read resumed>"GO\0", 3)     = 3
+147831 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+147830 <... close resumed>)             = 0
+147829 <... arch_prctl resumed>)        = 0
+147828 read(0,  <unfinished ...>
+147827 <... getpid resumed>)            = 147827
+147831 <... openat resumed>)            = 16
+147830 arch_prctl(ARCH_SET_FS, 0x7fd31ad41540 <unfinished ...>
+147831 fstat(16,  <unfinished ...>
+147827 read(0,  <unfinished ...>
+147830 <... arch_prctl resumed>)        = 0
+147826 brk(NULL <unfinished ...>
+147831 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=90042, ...}) = 0
+147829 mprotect(0x7fa06006b000, 12288, PROT_READ <unfinished ...>
+147831 mmap(NULL, 90042, PROT_READ, MAP_PRIVATE, 16, 0 <unfinished ...>
+147826 <... brk resumed>)               = 0x55996caa2000
+147831 <... mmap resumed>)              = 0x7f805ce51000
+147829 <... mprotect resumed>)          = 0
+147830 mprotect(0x7fd31ad36000, 12288, PROT_READ <unfinished ...>
+147826 brk(0x55996cac3000 <unfinished ...>
+147831 close(16 <unfinished ...>
+147830 <... mprotect resumed>)          = 0
+147829 mprotect(0x56402d0f4000, 4096, PROT_READ <unfinished ...>
+147826 <... brk resumed>)               = 0x55996cac3000
+147831 <... close resumed>)             = 0
+147829 <... mprotect resumed>)          = 0
+147830 mprotect(0x555662719000, 4096, PROT_READ <unfinished ...>
+147826 openat(AT_FDCWD, "./tests/test3/moves2.txt", O_RDONLY <unfinished ...>
+147831 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+147830 <... mprotect resumed>)          = 0
+147829 mprotect(0x7fa0600ba000, 4096, PROT_READ <unfinished ...>
+147831 <... openat resumed>)            = 16
+147830 mprotect(0x7fd31ad85000, 4096, PROT_READ <unfinished ...>
+147826 <... openat resumed>)            = 6
+147831 read(16,  <unfinished ...>
+147830 <... mprotect resumed>)          = 0
+147829 <... mprotect resumed>)          = 0
+147831 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+147830 munmap(0x7fd31ad42000, 90042 <unfinished ...>
+147826 fstat(6,  <unfinished ...>
+147829 munmap(0x7fa060077000, 90042 <unfinished ...>
+147831 pread64(16,  <unfinished ...>
+147826 <... fstat resumed>{st_mode=S_IFREG|0664, st_size=39, ...}) = 0
+147831 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147830 <... munmap resumed>)            = 0
+147829 <... munmap resumed>)            = 0
+147831 pread64(16,  <unfinished ...>
+147826 read(6,  <unfinished ...>
+147831 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147826 <... read resumed>"0\n1\n2\n0\n1\n2\n0\n1\n2\n1\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+147831 pread64(16,  <unfinished ...>
+147830 getpid( <unfinished ...>
+147829 getpid( <unfinished ...>
+147831 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147830 <... getpid resumed>)            = 147830
+147829 <... getpid resumed>)            = 147829
+147826 write(1, "0", 1 <unfinished ...>
+147831 fstat(16,  <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147831 <... fstat resumed>{st_mode=S_IFREG|0755, st_size=2029224, ...}) = 0
+147829 read(0,  <unfinished ...>
+147826 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147831 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+147824 <... write resumed>)             = 3
+147826 read(0,  <unfinished ...>
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147831 <... mmap resumed>)              = 0x7f805ce4f000
+147831 pread64(16, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+147831 pread64(16,  <unfinished ...>
+147827 brk(NULL <unfinished ...>
+147831 <... pread64 resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+147827 <... brk resumed>)               = 0x564db0563000
+147831 pread64(16,  <unfinished ...>
+147827 brk(0x564db0584000 <unfinished ...>
+147831 <... pread64 resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\363\377?\332\200\270\27\304d\245n\355Y\377\t\334"..., 68, 880) = 68
+147827 <... brk resumed>)               = 0x564db0584000
+147831 mmap(NULL, 2036952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 16, 0 <unfinished ...>
+147827 openat(AT_FDCWD, "./tests/test3/moves1.txt", O_RDONLY <unfinished ...>
+147831 <... mmap resumed>)              = 0x7f805cc5d000
+147827 <... openat resumed>)            = 8
+147831 mprotect(0x7f805cc82000, 1847296, PROT_NONE <unfinished ...>
+147827 fstat(8,  <unfinished ...>
+147831 <... mprotect resumed>)          = 0
+147827 <... fstat resumed>{st_mode=S_IFREG|0664, st_size=39, ...}) = 0
+147831 mmap(0x7f805cc82000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 16, 0x25000 <unfinished ...>
+147827 read(8,  <unfinished ...>
+147831 <... mmap resumed>)              = 0x7f805cc82000
+147827 <... read resumed>"0\n1\n2\n0\n1\n2\n0\n1\n2\n2\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+147831 mmap(0x7f805cdfa000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 16, 0x19d000 <unfinished ...>
+147827 write(1, "0", 1 <unfinished ...>
+147831 <... mmap resumed>)              = 0x7f805cdfa000
+147824 <... read resumed>"0", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147831 mmap(0x7f805ce45000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 16, 0x1e7000 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147831 <... mmap resumed>)              = 0x7f805ce45000
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147831 mmap(0x7f805ce4b000, 13528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f805ce4b000
+147831 close(16)                        = 0
+147828 brk(NULL <unfinished ...>
+147831 arch_prctl(ARCH_SET_FS, 0x7f805ce50540 <unfinished ...>
+147828 <... brk resumed>)               = 0x564dc68b9000
+147831 <... arch_prctl resumed>)        = 0
+147828 brk(0x564dc68da000)              = 0x564dc68da000
+147828 openat(AT_FDCWD, "./tests/test3/moves1.txt", O_RDONLY <unfinished ...>
+147831 mprotect(0x7f805ce45000, 12288, PROT_READ <unfinished ...>
+147828 <... openat resumed>)            = 10
+147831 <... mprotect resumed>)          = 0
+147828 fstat(10,  <unfinished ...>
+147831 mprotect(0x55679eb9e000, 4096, PROT_READ <unfinished ...>
+147828 <... fstat resumed>{st_mode=S_IFREG|0664, st_size=39, ...}) = 0
+147831 <... mprotect resumed>)          = 0
+147828 read(10,  <unfinished ...>
+147831 mprotect(0x7f805ce94000, 4096, PROT_READ <unfinished ...>
+147828 <... read resumed>"0\n1\n2\n0\n1\n2\n0\n1\n2\n2\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+147831 <... mprotect resumed>)          = 0
+147828 write(1, "0", 1 <unfinished ...>
+147831 munmap(0x7f805ce51000, 90042 <unfinished ...>
+147828 <... write resumed>)             = 1
+147824 <... read resumed>"0", 1)        = 1
+147831 <... munmap resumed>)            = 0
+147828 read(0,  <unfinished ...>
+147824 write(12, "GO\0", 3)             = 3
+147829 <... read resumed>"GO\0", 3)     = 3
+147824 read(13,  <unfinished ...>
+147831 getpid()                         = 147831
+147831 read(0,  <unfinished ...>
+147829 brk(NULL)                        = 0x56402d402000
+147829 brk(0x56402d423000)              = 0x56402d423000
+147829 openat(AT_FDCWD, "./tests/test3/moves2.txt", O_RDONLY) = 12
+147829 fstat(12, {st_mode=S_IFREG|0664, st_size=39, ...}) = 0
+147829 read(12, "0\n1\n2\n0\n1\n2\n0\n1\n2\n1\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+147829 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147829 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147829 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 brk(NULL)                        = 0x555663da9000
+147830 brk(0x555663dca000)              = 0x555663dca000
+147830 openat(AT_FDCWD, "./tests/test3/moves1.txt", O_RDONLY) = 14
+147830 fstat(14, {st_mode=S_IFREG|0664, st_size=39, ...}) = 0
+147830 read(14, "0\n1\n2\n0\n1\n2\n0\n1\n2\n2\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+147830 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(16, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147831 <... read resumed>"GO\0", 3)     = 3
+147824 read(17,  <unfinished ...>
+147831 brk(NULL)                        = 0x5567a064d000
+147831 brk(0x5567a066e000)              = 0x5567a066e000
+147831 openat(AT_FDCWD, "./tests/test3/moves1.txt", O_RDONLY) = 16
+147831 fstat(16, {st_mode=S_IFREG|0664, st_size=39, ...}) = 0
+147831 read(16, "0\n1\n2\n0\n1\n2\n0\n1\n2\n2\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+147831 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147831 <... write resumed>)             = 1
+147824 write(6, "GO\0", 3 <unfinished ...>
+147831 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147826 <... read resumed>"GO\0", 3)     = 3
+147824 read(7,  <unfinished ...>
+147826 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147826 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147826 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(12, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147829 <... read resumed>"GO\0", 3)     = 3
+147824 read(13,  <unfinished ...>
+147829 write(1, "1", 1)                 = 1
+147824 <... read resumed>"1", 1)        = 1
+147829 read(0,  <unfinished ...>
+147824 write(14, "GO\0", 3)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(16, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147831 <... read resumed>"GO\0", 3)     = 3
+147824 read(17,  <unfinished ...>
+147831 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147831 <... write resumed>)             = 1
+147824 write(6, "GO\0", 3)              = 3
+147831 read(0,  <unfinished ...>
+147824 read(7,  <unfinished ...>
+147826 <... read resumed>"GO\0", 3)     = 3
+147826 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147826 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3)              = 3
+147824 read(9,  <unfinished ...>
+147827 <... read resumed>"GO\0", 3)     = 3
+147826 read(0,  <unfinished ...>
+147827 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(12, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147829 <... read resumed>"GO\0", 3)     = 3
+147824 read(13,  <unfinished ...>
+147829 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147829 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147829 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147824 read(15,  <unfinished ...>
+147830 <... read resumed>"GO\0", 3)     = 3
+147830 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(16, "GO\0", 3)             = 3
+147830 read(0,  <unfinished ...>
+147831 <... read resumed>"GO\0", 3)     = 3
+147824 read(17,  <unfinished ...>
+147831 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147831 <... write resumed>)             = 1
+147824 write(6, "GO\0", 3 <unfinished ...>
+147831 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147826 <... read resumed>"GO\0", 3)     = 3
+147824 read(7,  <unfinished ...>
+147826 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147826 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147826 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(12, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147829 <... read resumed>"GO\0", 3)     = 3
+147824 read(13,  <unfinished ...>
+147829 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147829 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147829 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(16, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147831 <... read resumed>"GO\0", 3)     = 3
+147824 read(17,  <unfinished ...>
+147831 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147831 <... write resumed>)             = 1
+147824 write(6, "GO\0", 3 <unfinished ...>
+147831 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147826 <... read resumed>"GO\0", 3)     = 3
+147824 read(7,  <unfinished ...>
+147826 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147826 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147826 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(12, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147829 <... read resumed>"GO\0", 3)     = 3
+147824 read(13,  <unfinished ...>
+147829 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147829 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147829 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(16, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147831 <... read resumed>"GO\0", 3)     = 3
+147824 read(17,  <unfinished ...>
+147831 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147831 <... write resumed>)             = 1
+147824 write(6, "GO\0", 3 <unfinished ...>
+147831 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147826 <... read resumed>"GO\0", 3)     = 3
+147824 read(7,  <unfinished ...>
+147826 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147826 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147826 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(12, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147829 <... read resumed>"GO\0", 3)     = 3
+147824 read(13,  <unfinished ...>
+147829 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147829 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147829 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(16, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147831 <... read resumed>"GO\0", 3)     = 3
+147824 read(17,  <unfinished ...>
+147831 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147831 <... write resumed>)             = 1
+147824 write(6, "GO\0", 3 <unfinished ...>
+147831 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147826 <... read resumed>"GO\0", 3)     = 3
+147824 read(7,  <unfinished ...>
+147826 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147826 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147826 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(12, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147829 <... read resumed>"GO\0", 3)     = 3
+147824 read(13,  <unfinished ...>
+147829 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147829 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147829 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(16, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147831 <... read resumed>"GO\0", 3)     = 3
+147824 read(17,  <unfinished ...>
+147831 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147831 <... write resumed>)             = 1
+147824 write(6, "GO\0", 3 <unfinished ...>
+147831 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147826 <... read resumed>"GO\0", 3)     = 3
+147824 read(7,  <unfinished ...>
+147826 write(1, "1", 1)                 = 1
+147824 <... read resumed>"1", 1)        = 1
+147826 read(0,  <unfinished ...>
+147824 write(8, "GO\0", 3)              = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(12, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147829 <... read resumed>"GO\0", 3)     = 3
+147824 read(13,  <unfinished ...>
+147829 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147829 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147829 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(16, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147831 <... read resumed>"GO\0", 3)     = 3
+147824 read(17,  <unfinished ...>
+147831 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147831 <... write resumed>)             = 1
+147824 write(6, "GO\0", 3 <unfinished ...>
+147831 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147826 <... read resumed>"GO\0", 3)     = 3
+147824 read(7,  <unfinished ...>
+147826 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147826 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147826 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(12, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147829 <... read resumed>"GO\0", 3)     = 3
+147824 read(13,  <unfinished ...>
+147829 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147829 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147829 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(16, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147831 <... read resumed>"GO\0", 3)     = 3
+147824 read(17,  <unfinished ...>
+147831 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147831 <... write resumed>)             = 1
+147824 write(6, "GO\0", 3 <unfinished ...>
+147831 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147826 <... read resumed>"GO\0", 3)     = 3
+147824 read(7,  <unfinished ...>
+147826 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147826 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147826 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(12, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147829 <... read resumed>"GO\0", 3)     = 3
+147824 read(13,  <unfinished ...>
+147829 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147829 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147829 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(16, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147831 <... read resumed>"GO\0", 3)     = 3
+147824 read(17,  <unfinished ...>
+147831 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147831 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147831 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 brk(NULL)                        = 0x55aa55ff6000
+147825 brk(0x55aa56017000)              = 0x55aa56017000
+147825 openat(AT_FDCWD, "./tests/test3/moves1.txt", O_RDONLY) = 4
+147825 fstat(4, {st_mode=S_IFREG|0664, st_size=39, ...}) = 0
+147825 read(4, "0\n1\n2\n0\n1\n2\n0\n1\n2\n2\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+147825 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(8, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147827 <... read resumed>"GO\0", 3)     = 3
+147824 read(9,  <unfinished ...>
+147827 read(8, "", 4096)                = 0
+147827 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147827 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147827 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 read(10, "", 4096)               = 0
+147828 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(14, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147830 <... read resumed>"GO\0", 3)     = 3
+147824 read(15,  <unfinished ...>
+147830 read(14, "", 4096)               = 0
+147830 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147830 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147830 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "1", 1 <unfinished ...>
+147824 <... read resumed>"1", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147824 write(4, "GO\0", 3 <unfinished ...>
+147828 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147825 <... read resumed>"GO\0", 3)     = 3
+147824 read(5,  <unfinished ...>
+147825 read(4, "", 4096)                = 0
+147825 write(1, "2", 1 <unfinished ...>
+147824 <... read resumed>"2", 1)        = 1
+147825 <... write resumed>)             = 1
+147824 write(10, "GO\0", 3 <unfinished ...>
+147825 read(0,  <unfinished ...>
+147824 <... write resumed>)             = 3
+147828 <... read resumed>"GO\0", 3)     = 3
+147824 read(11,  <unfinished ...>
+147828 write(1, "0", 1 <unfinished ...>
+147824 <... read resumed>"0", 1)        = 1
+147828 <... write resumed>)             = 1
+147828 read(0,  <unfinished ...>
+147824 write(1, "p0 p1 p2 p3 p4 p5 p6\np0 p2 p3 p5"..., 41) = 41
+147824 exit_group(0)                    = ?
+147831 <... read resumed>"", 3)         = 0
+147831 getpid()                         = 147831
+147824 +++ exited with 0 +++
+147831 fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+147831 close(1)                         = 0
+147831 write(1, "child (147831) is terminating.\n", 31) = -1 EBADF (Bad file descriptor)
+147831 lseek(16, -19, SEEK_CUR)         = 20
+147831 exit_group(0)                    = ?
+147831 +++ exited with 0 +++
+147830 <... read resumed>"", 3)         = 0
+147830 getpid()                         = 147830
+147830 fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+147830 close(1)                         = 0
+147830 write(1, "child (147830) is terminating.\n", 31) = -1 EBADF (Bad file descriptor)
+147830 exit_group(0)                    = ?
+147830 +++ exited with 0 +++
+147829 <... read resumed>"", 3)         = 0
+147829 getpid()                         = 147829
+147829 fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+147829 close(1)                         = 0
+147829 write(1, "child (147829) is terminating.\n", 31) = -1 EBADF (Bad file descriptor)
+147829 lseek(12, -19, SEEK_CUR)         = 20
+147829 exit_group(0)                    = ?
+147829 +++ exited with 0 +++
+147828 <... read resumed>"", 3)         = 0
+147828 getpid()                         = 147828
+147828 fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+147828 close(1)                         = 0
+147828 write(1, "child (147828) is terminating.\n", 31) = -1 EBADF (Bad file descriptor)
+147828 exit_group(0)                    = ?
+147828 +++ exited with 0 +++
+147827 <... read resumed>"", 3)         = 0
+147827 getpid()                         = 147827
+147827 fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+147827 close(1)                         = 0
+147827 write(1, "child (147827) is terminating.\n", 31) = -1 EBADF (Bad file descriptor)
+147827 exit_group(0)                    = ?
+147827 +++ exited with 0 +++
+147826 <... read resumed>"", 3)         = 0
+147826 getpid()                         = 147826
+147826 fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+147826 close(1)                         = 0
+147826 write(1, "child (147826) is terminating.\n", 31) = -1 EBADF (Bad file descriptor)
+147826 lseek(6, -19, SEEK_CUR)          = 20
+147826 exit_group(0)                    = ?
+147826 +++ exited with 0 +++
+147825 <... read resumed>"", 3)         = 0
+147825 getpid()                         = 147825
+147825 fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+147825 close(1)                         = 0
+147825 write(1, "child (147825) is terminating.\n", 31) = -1 EBADF (Bad file descriptor)
+147825 exit_group(0)                    = ?
+147825 +++ exited with 0 +++
